@@ -1,0 +1,43 @@
+body {
+    background: url(https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2022/02/texturas-descargas-gratis-premium.png?fit=666%2C370&quality=100&strip=all&ssl=1);
+    color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: #AFC644;
+    padding: 20px;
+}
+
+nav {
+    background-color: #4cafb0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    background-color: #cfe415;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+}
