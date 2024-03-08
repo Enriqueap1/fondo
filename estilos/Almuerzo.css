@@ -1,29 +1,59 @@
-body {background: url(https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2022/02/texturas-descargas-gratis-premium.png?fit=666%2C370&quality=100&strip=all&ssl=1);
+body {
+    background: url(https://i0.wp.com/www.silocreativo.com/wp-content/uploads/2022/02/texturas-descargas-gratis-premium.png?fit=666%2C370&quality=100&strip=all&ssl=1);
     color: black;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;}
-    h1 {font-size: 50px;
-    padding-left: 300pt;
-    background-color: #34F7B8;}
-    * {padding-left: 10pt;
+    background-size: cover;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #34F7B8;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+* {
+    padding-left: 10pt;
     font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;}
-    img {padding-left: 250px;}
-    a{
-        color: black;
-        padding-left: 5%;
-        padding-bottom: 3%;
-        background-color: #34F7B8
-        
-    }
-    p{
-        color:#21759F;
-        background-color: #4cafb0
-    }
-    table{
-        background-color: #8ccccc
-    }
-    .caja{
-        width: fit-content;
-    }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+a {
+    color: black;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    background-color: #34F7B8;
+    display: inline-block;
+    text-decoration: none;
+}
+
+p {
+    color: #21759F;
+    background-color: #4cafb0;
+    padding: 10px;
+}
+
+table {
+    background-color: #8ccccc;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.caja {
+    width: fit-content;
+    margin: 20px auto;
+}
